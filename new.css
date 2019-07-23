@@ -157,3 +157,9 @@ form.example input[type=text] {
 .register .register-input3{
     width: 60%;
 }
+.sidebar .a:hover{
+color: black;
+}
+.register .a:hover{
+    background-color:#F08080;
+}
