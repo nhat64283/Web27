@@ -148,6 +148,14 @@ form.example input[type=text] {
     margin-left:300px;
     color : red;
 }
+.register .errorMessage4{
+    margin-left:300px;
+    color : red;
+}
+.register .message{
+    margin-left:30px;
+    color : red;
+}
 .register .register-input1{
     width: 60%;
 }
