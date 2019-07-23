@@ -83,3 +83,39 @@
     margin-left: 20px;
 
 }
+.last .a:hover{
+    opacity: 0.3;
+}
+.a:hover{
+opacity: 0.3;
+}
+.image-container {
+    position: relative;
+
+}
+.image-container img {display: block;}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+.image-container .after .content {
+    position: absolute;
+    bottom: 0;
+    font-family: Arial;
+    font-size:30px;
+    text-align: center;
+    top:100px;
+    left:45px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
