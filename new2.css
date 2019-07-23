@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.pic1{
+    display:block;
+}
+.image1{
+    width: 100%;
+    height: 40vh;
+}
+.middle-2{
+    margin-left:20px;
+    margin-bottom: 20px;
+    color: 	#666;
+}
+.middle-1{
+    margin-left:20px;
+    margin-top:10px;
+    color: 	#666;
+}
+.pic2{
+    display: inline;
+    margin-top:10px;
+    min-height: 60vh;
+    width:70%;
+}
+.pic2 .pic2-sec1{
+    margin-top: 20px;
+    
+}
+.pic2 .pic2-sec2{
+    margin-top: 20px;
+    
+}
+.pic2 .aka2 {
+    margin-left:50px;
+    margin-right: 20px;
+    width: 300px;
+    height: 30vh;
+}
+.pic2 .aka3{
+    margin-left:50px;
+    margin-right: 30px;
+    width:300px;
+    height:30vh;
+}
+.pic2 .ichi1{
+    margin-left:50px;
+    margin-right: 20px;
+    width:300px;
+    height:30vh;
+}
+.pic2 .sister1{
+    margin-left:50px;
+    margin-right: 20px;
+    width:300px;
+    height:30vh;
+}
+.pic3{
+    width:25%;
+    min-height:120vh;
+}
+.all{
+    display: flex;
+    background-color: #C0C0C0;
+    height : 80vh;
+}
+.pic3 .pic3-1{
+    height:60vh;
+    width:300px;
+    margin-top: 35px;
+}
+.last{
+    display: flex;
+    background-color: white;
+    height:30vh;
+}
+.last .last-1{
+    width: 33%;
+    margin-left: 20px;
+}
+.last .last-2{
+    width: 33%;
+    margin-left: 20px;
+}
+}
+.last .last-3{
+    width: 33%;
+    margin-left: 20px;
+
+}
