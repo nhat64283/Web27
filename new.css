@@ -9,7 +9,7 @@
     background-color: #C0C0C0;
 }
 .register{
-    height:100vh;
+    height:110vh;
     width:70%;
     display:block;
     margin-right: 20px;
@@ -18,7 +18,7 @@
     margin:20px 20px;
 }
 .sidebar{
-height:100vh;
+height:110vh;
 width:30%;
 margin:20px 20px;
 background-color: white;
@@ -132,26 +132,13 @@ form.example input[type=text] {
   .sidebar .sidebar-div .sidebar-calendar{
     display: inline-block;
   }
-  .sidebar .sidebar-color{
+.sidebar .sidebar-color{
       color: 	#D3D3D3;
   }
-  .register .errorMessage1{
+.register .errorMessage1, .register .errorMessage2, .register .errorMessage3, .register .errorMessage4{
       margin-left:300px;
-      color : red;
-      
+      color : red;   
   }
-  .register .errorMessage2{
-    margin-left:300px;
-    color : red;
-}
-.register .errorMessage3{
-    margin-left:300px;
-    color : red;
-}
-.register .errorMessage4{
-    margin-left:300px;
-    color : red;
-}
 .register .message{
     margin-left:30px;
     color : red;
@@ -162,6 +149,7 @@ form.example input[type=text] {
 }
 .sidebar .a:hover{
 color: black;
+opacity: 0.8;
 }
 .register .a:hover{
     background-color:#F08080;
