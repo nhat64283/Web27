@@ -57,11 +57,8 @@
     width: 33%;
     margin-left: 20px;
 }
-.last .a:hover{
-    opacity: 0.7;
-}
-.a:hover{
-opacity: 0.3;
+.last .a:hover ,.pic2 .a:hover , .pic3 .a:hover{
+    opacity: 0.6;
 }
 .image-container {
     position: relative;
