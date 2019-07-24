@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    min-height: 100vh;
+    display:flex;
+    background-color: #C0C0C0;
+}
+.register{
+    height:110vh;
+    width:70%;
+    display:block;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+    margin:20px 20px;
+}
+.sidebar{
+height:110vh;
+width:30%;
+margin:20px 20px;
+background-color: white;
+}
+.register h3{
+    margin-top:10px;
+    margin-left: 20px;
+}
+.register h4{
+    color:red;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.register span{
+    color:red;
+}
+.register .register-div{
+    margin-top:10px;
+    margin-left: 20px;
+}
+.register .register-label{
+    display: inline-block;
+    width: 30%;
+}
+.register .register-input{
+    width: 60%;
+}
+.register .register-button{
+    background-color: red;
+    padding:10px 20px;
+}
+.sidebar .sidebar-div{
+    margin-top:10px;
+    margin-left:10px;
+}
+form.example input[type=text] {
+    padding: 7px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 7px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .sidebar .sidebar-header{
+      margin-top: 20px;
+      margin-left:10px;
+  }
+ .sidebar .sidebar-div p.speech {
+     display:inline-block;
+    position: relative;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color:#666;
+    border: 1px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+  }
+ .sidebar .sidebar-div p.speech:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 3px;
+    top: 10px;
+    border: 1px solid;
+    border-color: #666 transparent transparent #666;
+  }
+  .sidebar .sidebar-div p.speech:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 3px;
+    top: 10px;
+    border: 5px solid;
+    border-color: #666 transparent transparent #666;
+  }
+  .sidebar .sidebar-span{
+      width: 150px;
+  }
+  .sidebar .sidebar-div .sidebar-calendar{
+    display: inline-block;
+  }
+.sidebar .sidebar-color{
+      color: 	#D3D3D3;
+  }
+.register .errorMessage1, .register .errorMessage2, .register .errorMessage3, .register .errorMessage4{
+      margin-left:300px;
+      color : red;   
+  }
+.register .message{
+    margin-left:30px;
+    color : red;
+}
+
+.register .register-input4 , .register-input1 , .register-input2 , .register-input3{
+    width: 60%;
+}
+.sidebar .a:hover{
+color: black;
+opacity: 0.8;
+}
+.register .a:hover{
+    background-color:#F08080;
+}

@@ -1,0 +1,37 @@
+p {color: red;}
+h1 {
+    font-size: 24px;
+    color: cornflowerblue;
+    display:none;
+}
+.class1{
+    border: 5px solid #000000;
+    border-radius: 10px;
+    padding : 20px;
+    margin: 20px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 20px;
+}
+#title{
+    text-align: center;
+}
+h4, h5{
+
+}
+#title, h4, .class3{}
+.parent .child1{
+
+}
+.parent>.child-2{
+
+}
+body{
+    background-image: url"EOHvKSs.jpg";
+}
+h1{
+ font-weight: bold;
+}
