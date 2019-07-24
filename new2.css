@@ -30,7 +30,8 @@
     margin-left:50px;
     margin-right: 20px;
     width: 42%;
-    height: 30vh;
+    height: 35vh;
+    margin-bottom: 3vh;
 }
 
 .pic3{
@@ -43,7 +44,7 @@
     height : 80vh;
 }
 .pic3 .pic3-1{
-    height:60vh;
+    height:74vh;
     width:95%;
     margin-top: 10px;
 }
