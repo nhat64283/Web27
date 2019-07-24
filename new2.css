@@ -26,30 +26,13 @@
     min-height: 60vh;
     width:70%;
 }
-.pic2 .aka2 {
+.pic2 .aka2 , .pic2 .aka3 , .pic2 .ichi1 , .pic2 .sister1 {
     margin-left:50px;
     margin-right: 20px;
-    width: 40%;
+    width: 42%;
     height: 30vh;
 }
-.pic2 .aka3{
-    margin-left:50px;
-    margin-right: 30px;
-    width:40%;
-    height:30vh;
-}
-.pic2 .ichi1{
-    margin-left:50px;
-    margin-right: 20px;
-    width:40%;
-    height:30vh;
-}
-.pic2 .sister1{
-    margin-left:50px;
-    margin-right: 20px;
-    width:40%;
-    height:30vh;
-}
+
 .pic3{
     width:30%;
     min-height:120vh;
@@ -61,7 +44,7 @@
 }
 .pic3 .pic3-1{
     height:60vh;
-    width:90%;
+    width:95%;
     margin-top: 10px;
 }
 .last{
@@ -69,19 +52,9 @@
     background-color: white;
     height:30vh;
 }
-.last .last-1{
+.last .last-1 , .last-2 , .last-3{
     width: 33%;
     margin-left: 20px;
-}
-.last .last-2{
-    width: 33%;
-    margin-left: 20px;
-}
-}
-.last .last-3{
-    width: 33%;
-    margin-left: 20px;
-
 }
 .last .a:hover{
     opacity: 0.3;

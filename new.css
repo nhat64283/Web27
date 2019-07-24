@@ -156,16 +156,8 @@ form.example input[type=text] {
     margin-left:30px;
     color : red;
 }
-.register .register-input1{
-    width: 60%;
-}
-.register .register-input4{
-    width: 60%;
-}
-.register .register-input2{
-    width: 60%;
-}
-.register .register-input3{
+
+.register .register-input4 , .register-input1 , .register-input2 , .register-input3{
     width: 60%;
 }
 .sidebar .a:hover{
