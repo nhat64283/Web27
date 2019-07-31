@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.about-div{
+    display:flex;
+    height:7vh;
+}
+.about-div .about-bootstrap{
+    width:70%;
+    text-align: left;
+    color: aquamarine;
+}
+.about-div .about-icon{
+    width:30%;
+    margin-left:729px;
+}
+.about-icon .button{
+    background-color: white;
+    padding:5px 5px;
+}
+.about-icon .download{
+    background-color: #1E90FF;
+    padding: 5px 20px;
+}
+.about-newbiz{
+    width: 40%;
+    text-align: center;
+    color: #1E90FF;
+}
+.about-button button{
+    padding: 5px 20px;
+    background-color:white;
+    border : 1px;
+}
+.content{
+    height:120vh;
+    background-color: powderblue;
+}
+.content h1, .content p{
+    text-align: center;
+}
+.content .content-div{
+    display:flex;
+    position: relative;
+    height:120vh;
+    width:100%;
+}
+.content-div .lorem{
+    position: absolute;
+    top:10px;
+    left:180px;
+    height: 20vh;
+    width:350px;
+    background-color: white;
+    display:flex;
+}
+.lorem .icon , .dolor .icon , .sed .icon,.magni .icon{
+    text-align: left;
+    font-size:50px;
+    width:20%;
+}
+.lorem .text , .dolor .text , .sed .text,.magni .text{
+width:75%;
+}
+.content-div .dolor{
+    position: absolute;
+    top:10px;
+    left:700px;
+    height: 20vh;
+    width:350px;
+    background-color: white;
+    display:flex;
+}
+.content-div .sed{
+    position: absolute;
+    top:200px;
+    left:180px;
+    height: 20vh;
+    width:350px;
+    background-color: white;
+    display:flex;
+}
+.content-div .magni{
+    position: absolute;
+    top:200px;
+    left:700px;
+    height: 20vh;
+    width:350px;
+    background-color: white;
+    display:flex;
+}
+
